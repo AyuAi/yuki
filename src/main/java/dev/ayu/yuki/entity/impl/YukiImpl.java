@@ -6,7 +6,7 @@ import dev.ayu.yuki.entity.base.YukiDiscordApi;
 import dev.ayu.yuki.entity.base.YukiLogger;
 import dev.ayu.yuki.entity.builder.YukiDiscordApiBuilder;
 
-public class YukiImpl implements Yuki {
+public final class YukiImpl implements Yuki {
 
     private final YukiDiscordApi api;
     private final YukiDatabaseSupplier databaseSupplier;
